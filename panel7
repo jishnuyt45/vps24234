@@ -1,4 +1,6 @@
 #!/bin/bash
+apt update
+apt install systemd
 curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh?any=true | sudo bash
 sudo apt update
 sudo apt-get install pufferpanel
